@@ -1,5 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
 import streamlit as st
 from openai import OpenAI
+
 
 # Show title and description.
 st.title("📄 Document question answering")
